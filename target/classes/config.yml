@@ -1,0 +1,26 @@
+halloffame:
+  codeoffame:
+  - |
+      HIGH: 5
+      WIDE: 10
+  - |
+      LOOP HIGH{
+      BUILD 1 CIRCLE NORTH EAST WIDE
+      GO UP
+      BUILD 2 CIRCLE NORTH EAST WIDE
+      GO UP
+      BUILD 3 CIRCLE NORTH EAST WIDE
+      GO UP
+      BUILD 4 CIRCLE NORTH EAST WIDE
+      GO UP
+      }
+  - |
+      NOW WIDE: WIDE
+      LOOP WIDE{
+      BUILD 1 CIRCLE NORTH EAST (NOW WIDE)
+      NOW WIDE: NOW WIDE-2
+      GO UP
+      }
+  - |
+      GO DOWN (WIDE/2)+(WIDE/5)
+      BUILD 5 SPHERE WIDE

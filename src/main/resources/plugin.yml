@@ -1,0 +1,7 @@
+name: HallOfFame
+main: com.kodingkingdom.halloffame.HallOfFamePlugin
+version: 0.0.1
+softdepend: [WorldEdit, PlotMe, CrafterCoordinator, KodeBuilder]
+commands:
+   halloffame:
+   hof:
